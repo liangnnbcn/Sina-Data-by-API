@@ -25,6 +25,9 @@ urllib2.urlopen()
 response.read()
 和google 浏览器 右键查看源代码一致。
 
+在python3.3里面，用urllib.request代替urllib2 ； import urllib.request ； resp=urllib.request.urlopen(url)  ； urllib2在Python3已拆分更名为urllib.request和urllib.error
+
+
 
 
 
