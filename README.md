@@ -27,7 +27,7 @@ response.read()
 
 在python3.3里面，用urllib.request代替urllib2 ； import urllib.request ； resp=urllib.request.urlopen(url)  ； urllib2在Python3已拆分更名为urllib.request和urllib.error
 
-
+urlretrieve方法将url定位到的html文件下载到你本地的硬盘中。如果不指定filename，则会存为临时文件。 urlretrieve()返回一个二元组(filename,mine_hdrs)
 
 
 
